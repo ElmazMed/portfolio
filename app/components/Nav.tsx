@@ -1,8 +1,8 @@
 import Link from "next/link";
-import HomeLottieIcon from "./HomeLottieIcon";
-import ExpertiseLottieIcon from "./SkillsLottieIcon";
+import HomeLottieIcon from "./icons/HomeLottieIcon";
+import ExpertiseLottieIcon from "./icons/SkillsLottieIcon";
 import ExperienceLottieIcon from "./ExperienceLottieIcon";
-import ContactLottieIcon from "./ContactLottieIcons";
+import ContactLottieIcon from "./icons/ContactLottieIcons";
 
 function Nav() {
   return (
