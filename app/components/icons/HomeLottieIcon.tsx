@@ -2,7 +2,7 @@
 
 import { useRef, useEffect, useState } from 'react'
 import Lottie, { LottieRefCurrentProps } from 'lottie-react'
-import homeAnimation from '../../public/animations/home.json'
+import homeAnimation from '../../../public/animations/home.json'
 
 export default function HomeLottieIcon() {
   const lottieRef = useRef<LottieRefCurrentProps>(null)

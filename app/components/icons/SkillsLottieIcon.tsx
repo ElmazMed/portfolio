@@ -2,7 +2,7 @@
 
 import { useRef, useEffect, useState } from "react";
 import Lottie, { LottieRefCurrentProps } from "lottie-react";
-import skillsAnimation from "../../public/animations/skills.json";
+import skillsAnimation from "../../../public/animations/skills.json";
 
 export default function SkillsLottieIcon() {
   const lottieRef = useRef<LottieRefCurrentProps>(null);
