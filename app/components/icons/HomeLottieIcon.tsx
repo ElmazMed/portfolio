@@ -4,7 +4,7 @@ import { useRef, useEffect, useState } from 'react'
 import Lottie, { LottieRefCurrentProps } from 'lottie-react'
 import homeAnimation from '../../public/animations/home.json'
 
-export default function LottieIcon() {
+export default function HomeLottieIcon() {
   const lottieRef = useRef<LottieRefCurrentProps>(null)
   const [isHovered, setIsHovered] = useState(false)
 
@@ -21,13 +21,13 @@ export default function LottieIcon() {
 
   const handleMouseLeave = () => {
     setIsHovered(false)
-    const animationDuration = lottieRef.current?.getDuration(true) || 100
+    const animationDuration = lottieRef.current?.getDuration(true) || 60
     lottieRef.current?.goToAndStop(animationDuration, true)
   }
 
   return (
     <div
-      className="w-12 h-12 cursor-pointer transition-transform duration-300 hover:scale-110"
+      className="w-9 h-9 cursor-pointer transition-transform duration-300 hover:scale-110"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
