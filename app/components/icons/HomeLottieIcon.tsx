@@ -27,7 +27,7 @@ export default function HomeLottieIcon() {
 
   return (
     <div
-      className="w-9 h-9 cursor-pointer transition-transform duration-300 hover:scale-110"
+      className="w-8 h-8 cursor-pointer transition-transform duration-300 hover:scale-110"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >

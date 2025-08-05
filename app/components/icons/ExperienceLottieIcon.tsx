@@ -2,7 +2,7 @@
 
 import { useRef, useEffect, useState } from "react";
 import Lottie, { LottieRefCurrentProps } from "lottie-react";
-import experienceAnimation from "../../public/animations/experience.json";
+import experienceAnimation from "../../../public/animations/experience.json";
 
 export default function ExperienceLottieIcon() {
   const lottieRef = useRef<LottieRefCurrentProps>(null);
@@ -26,7 +26,7 @@ export default function ExperienceLottieIcon() {
   };
   return (
     <div
-      className="w-9 h-9 cursor-pointer transition-transform duration-300 hover:scale-110"
+      className="w-8 h-8 cursor-pointer transition-transform duration-300 hover:scale-110"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}>
       <Lottie

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import HomeLottieIcon from "./icons/HomeLottieIcon";
 import ExpertiseLottieIcon from "./icons/SkillsLottieIcon";
-import ExperienceLottieIcon from "./ExperienceLottieIcon";
+import ExperienceLottieIcon from "./icons/ExperienceLottieIcon";
 import ContactLottieIcon from "./icons/ContactLottieIcons";
 
 function Nav() {
@@ -26,5 +26,7 @@ function Nav() {
     </>
   );
 }
+
+
 
 export default Nav;

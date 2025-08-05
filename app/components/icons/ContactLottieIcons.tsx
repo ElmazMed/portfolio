@@ -2,7 +2,7 @@
 
 import { useRef, useEffect, useState } from 'react'
 import Lottie, { LottieRefCurrentProps } from 'lottie-react'
-import contactAnimation from '../../public/animations/contact.json'
+import contactAnimation from '../../../public/animations/contact.json'
 
 export default function ContactLottieIcon() {
   const lottieRef = useRef<LottieRefCurrentProps>(null)
@@ -27,7 +27,7 @@ export default function ContactLottieIcon() {
 
   return (
     <div
-      className="w-9 h-9 cursor-pointer transition-transform duration-300 hover:scale-110"
+      className="w-8 h-8 cursor-pointer transition-transform duration-300 hover:scale-110"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
