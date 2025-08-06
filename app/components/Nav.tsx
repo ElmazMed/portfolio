@@ -7,10 +7,8 @@ import ContactLottieIcon from "./icons/ContactLottieIcons";
 function Nav() {
   return (
     <>
-      <div className="relative flex items-center justify-center flex-col gap-4 p-4 bg-white rounded-full shadow-2xl">
-        <Link
-          href="/home"
-          className="text-secondary transition duration-700 ease-in-out hover:text-primary">
+      <div className="sticky mt-36 h-56 w-14 flex items-center justify-center flex-col gap-4 p-4 bg-[#122b39] rounded-full shadow-2xl">
+        <Link href="">
           <HomeLottieIcon />
         </Link>
         <Link href="/skills">
@@ -26,7 +24,5 @@ function Nav() {
     </>
   );
 }
-
-
 
 export default Nav;
