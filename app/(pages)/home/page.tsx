@@ -35,7 +35,7 @@ export default function Home() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 3.8, ease: "easeOut" }}>
-              <p className="text-white opacity-70 font-light text-justify w-1/2 leading-7 hover:opacity-90 transition ease-in-out duration-700">
+              <p className="text-white opacity-70 font-light text-justify w-3/5 mt-2 leading-7 hover:opacity-90 transition ease-in-out duration-700">
                 I'm a web developer based in Vilnius, Lithuania, with hands-on
                 experience as a full-stack developer. I specialize in building
                 robust, scalable, and user-friendly web applications using
@@ -46,11 +46,46 @@ export default function Home() {
               </p>
             </motion.div>
             <div
-              className="relative h-80 w-1/2 mt-7 bg-primary  border border-secondary transition ease-in-out duration-800 hover:shadow-[0px_11px_29px_-19px_#2ee2cd]
+              className="relative h-80 w-3/5 mt-20 bg-primary  border border-secondary transition ease-in-out duration-800 hover:shadow-[0px_11px_29px_-19px_#2ee2cd]
  rounded-lg">
-              <span className="absolute left-1/2 -translate-x-1/2 -top-3 bg-primary text-white px-4">
+              <span className="absolute left-1/2 -translate-x-1/2 -top-3 bg-primary text-white font-medium opacity-80 px-4">
                 Work Experience
               </span>
+              <div className="px-5 py-8">
+                <div className="relative flex gap-11">
+                  <span className="absolute left-0 -translate-x-2/3 top-1 text-white text-xs opacity-85 font-light">
+                    2024 - 2025
+                  </span>
+                  <div className="ml-11">
+                    <h1 className="text-white mb-5 opacity-85 font-bold">
+                      Full-Stack Web Developer{" "}
+                      <span className="text-white bg-primary opacity-75 font-semibold">
+                        • Pubsilon
+                      </span>
+                    </h1>
+                    <p className="text-white opacity-75 mb-3 text-sm">
+                      • Developing and maintaining both frontend and backend
+                      features of a large-scale web application.
+                    </p>
+                    <p className="text-white opacity-75 mb-3 text-sm">
+                      • Designing responsive user interfaces with Tailwind CSS
+                      and Material UI.
+                    </p>
+                    <p className="text-white opacity-75 mb-3 text-sm">
+                      • Building RESTful APIs and integrating third-party
+                      services like Twilio, Stripe and Firebase.
+                    </p>
+                    <p className="text-white opacity-75 mb-3 text-sm">
+                      • Implementing authentication and user management systems
+                      (JWT, OAuth).
+                    </p>
+                    <p className="text-white opacity-75 mb-3 text-sm">
+                      • Collaborating closely with UI/UX designers and other
+                      developers in an agile team environment.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
