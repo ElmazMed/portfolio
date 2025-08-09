@@ -7,8 +7,8 @@ import Nav from "./components/Nav";
 export default function Page() {
   return (
     <>
-      <div className="flex justify-between mt-20 md:p-12 p-3">
-        {/* <Nav /> */}
+      <div className="md:flex justify-between md:mt-20 mt-7 md:p-12 p-3">
+        <Nav />
         <Home />
         {/* <MyLinks /> */}
       </div>
