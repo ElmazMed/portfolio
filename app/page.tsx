@@ -7,10 +7,10 @@ import Nav from "./components/Nav";
 export default function Page() {
   return (
     <>
-      <div className="flex justify-between mt-20 p-12">
-        <Nav />
+      <div className="flex justify-between mt-20 md:p-12 p-3">
+        {/* <Nav /> */}
         <Home />
-        <MyLinks />
+        {/* <MyLinks /> */}
       </div>
     </>
   );
