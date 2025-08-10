@@ -19,7 +19,7 @@ export default function ToolsSkill() {
         </div>
         <div className="flex items-center justify-between gap-10 mb-6">
           <p className="text-white opacity-85 text-xl tracking-widest">
-            • REST API's
+            • REST API&apos;s
           </p>
           <span className="bg-[#132f49] text-effect text-[.65rem] rounded-full p-2">
             + 2 Years

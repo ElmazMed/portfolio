@@ -9,7 +9,7 @@ import MyLinks from "./MyLinks";
 function Nav() {
   return (
     <>
-      <div className="md:fixed md:left-12 md:mt-36 md:h-56 md:w-14 mb-8 h-14 w-full flex items-center justify-center md:flex-col gap-4 p-4 bg-secondary rounded-full shadow-2xl">
+      <div className="md:fixed md:left-12 md:top-32 md:mt-36 md:h-56 md:w-14 mb-8 h-14 w-full flex items-center justify-center md:flex-col gap-4 p-4 bg-secondary rounded-full shadow-2xl">
         <Link href="" className="bg-white opacity-95 p-1 rounded-full">
           <HomeLottieIcon />
         </Link>
