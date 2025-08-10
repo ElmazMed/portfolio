@@ -7,7 +7,7 @@ import WorkOutlineIcon from "@mui/icons-material/WorkOutline";
 export default function Home() {
   return (
     <>
-      <div className="relative h-[85vh]">
+      <div className="relative ">
         <div className="md:flex gap-3">
           <div className="md:w-1/2 w-full flex justify-center">
             <Image
@@ -47,9 +47,9 @@ export default function Home() {
               </p>
             </motion.div>
             <div
-              className="relative h-80 md:w-3/5 w-full mt-20 bg-primary  border border-secondary transition ease-in-out duration-800 hover:shadow-[0px_11px_29px_-19px_#2ee2cd]
+              className="relative md:w-3/5 w-full mt-20 bg-primary  border border-secondary transition ease-in-out duration-800 hover:shadow-[0px_11px_29px_-19px_#2ee2cd]
  rounded-lg">
-              <span className="absolute left-1/2 -translate-x-1/2 -top-3 bg-primary text-white font-medium opacity-80 px-4">
+              <span className="absolute left-1/2 -translate-x-1/2 md:text-base text-sm -top-3 bg-primary text-white font-medium opacity-80 px-4">
                 <WorkOutlineIcon /> Work Experience
               </span>
               <div className="md:px-5 px-2 py-8">

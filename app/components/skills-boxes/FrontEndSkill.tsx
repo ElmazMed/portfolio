@@ -3,12 +3,12 @@ import ImportantDevicesIcon from "@mui/icons-material/ImportantDevices";
 export default function FrontEndSkill() {
   return (
     <div className="flex flex-col gap-8">
-      <div className="flex items-center justify-center h-16 w-80 mt-20 bg-white opacity-85 border border-secondary transition ease-in-out duration-800 hover:shadow-[0px_11px_29px_-19px_#2ee2cd]">
-        <h2 className="text-primary text-2xl font-semibold text-center flex justify-center items-center gap-2">
+      <div className="flex items-center justify-center md:h-16 md:w-80 h-12 w-full bg-white opacity-85 border border-secondary transition ease-in-out duration-800 hover:shadow-[0px_11px_29px_-19px_#2ee2cd]">
+        <h2 className="text-primary md:text-2xl font-semibold text-center flex justify-center items-center gap-2">
           <ImportantDevicesIcon /> Front-End
         </h2>
       </div>
-      <div className="flex flex-col h-[32rem] w-80 bg-primary p-5 border border-secondary transition ease-in-out duration-800 hover:shadow-[0px_11px_29px_-19px_#2ee2cd] rounded-br-3xl">
+      <div className="flex flex-col md:w-80 w-full md:h-[28rem] mb-10 bg-primary p-5 border border-secondary transition ease-in-out duration-800 hover:shadow-[0px_11px_29px_-19px_#2ee2cd] rounded-br-3xl">
         <div className="flex items-center justify-between gap-10 mb-6">
           <p className="text-white opacity-85 text-xl tracking-widest">
             • HTML5/CSS3
