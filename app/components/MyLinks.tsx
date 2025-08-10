@@ -6,7 +6,7 @@ import RssFeedIcon from "@mui/icons-material/RssFeed";
 export default function MyLinks() {
   return (
     <>
-      <div className="sticky mt-36 flex h-56 w-14 items-center justify-center flex-col gap-4 p-4 bg-[#122b39] rounded-full shadow-2xl">
+      <div className="md:fixed md:right-12 md:mt-36 flex md:h-56 md:w-14 items-center justify-center md:flex-col gap-4 md:p-4 md:bg-[#122b39] rounded-full shadow-2xl">
         <Link
           target="_blank"
           href="https://www.linkedin.com/in/elmazgour/"

@@ -2,11 +2,12 @@ import Image from "next/image";
 import myAvatar from "../../assets/myAvatar.png";
 import { Typewriter } from "react-simple-typewriter";
 import { motion } from "framer-motion";
+import WorkOutlineIcon from "@mui/icons-material/WorkOutline";
 
 export default function Home() {
   return (
     <>
-      <div className="relative">
+      <div className="relative h-[85vh]">
         <div className="md:flex gap-3">
           <div className="md:w-1/2 w-full flex justify-center">
             <Image
@@ -49,7 +50,7 @@ export default function Home() {
               className="relative h-80 md:w-3/5 w-full mt-20 bg-primary  border border-secondary transition ease-in-out duration-800 hover:shadow-[0px_11px_29px_-19px_#2ee2cd]
  rounded-lg">
               <span className="absolute left-1/2 -translate-x-1/2 -top-3 bg-primary text-white font-medium opacity-80 px-4">
-                Work Experience
+                <WorkOutlineIcon /> Work Experience
               </span>
               <div className="md:px-5 px-2 py-8">
                 <div className="relative flex gap-11">
@@ -89,7 +90,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="absolute bottom-0 left-0">
+        <div className="absolute bottom-0 left-0 -translate-x-12">
           <h1 className="text-transparent bg-gradient-to-r from-white via-slate-400 bg-clip-text opacity-75 font-extrabold md:text-8xl text-3xl">
             About me.
           </h1>
