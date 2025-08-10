@@ -3,7 +3,7 @@ import DnsIcon from "@mui/icons-material/Dns";
 export default function BackEndSkill() {
   return (
     <div className="flex flex-col gap-8">
-      <div className="flex items-center justify-center h-16 w-80 mt-20 bg-white opacity-85 border border-secondary cursor-pointer transition ease-in-out duration-800 hover:shadow-[0px_11px_29px_-19px_#2ee2cd]">
+      <div className="flex items-center justify-center h-16 w-80 mt-20 bg-white opacity-85 border border-secondary transition ease-in-out duration-800 hover:shadow-[0px_11px_29px_-19px_#2ee2cd]">
         <h2 className="text-primary text-2xl font-semibold text-center flex justify-center items-center gap-2">
           <DnsIcon /> Back-End
         </h2>

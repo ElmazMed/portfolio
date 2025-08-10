@@ -2,6 +2,8 @@ import CodeOffIcon from "@mui/icons-material/CodeOff";
 
 import FrontEndSkill from "@/app/components/icons/skills-boxes/FrontEndSkill";
 import BackEndSkill from "@/app/components/icons/skills-boxes/BackEndSkill";
+import ToolsSkill from "@/app/components/icons/skills-boxes/ToolsSkill";
+import SoftSkill from "@/app/components/icons/skills-boxes/SoftSkill";
 
 export default function Skills() {
   return (
@@ -12,6 +14,8 @@ export default function Skills() {
       <div className="flex gap-8">
         <FrontEndSkill />
         <BackEndSkill />
+        <ToolsSkill />
+        <SoftSkill />
       </div>
     </div>
   );
